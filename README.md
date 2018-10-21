@@ -1,4 +1,4 @@
-# Trade Statistics Packart Library
+# Trade Statistics Packrat Library
 
 ## Description
 
