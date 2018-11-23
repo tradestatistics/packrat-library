@@ -8,6 +8,8 @@
 # Packrat does not catch all the packages loaded via pacman so here's the full list
 # across all repositories of this project
 
+#install.packages(c("pacman", "data.table", "jsonlite", "readxl", "RPostgreSQL", "tabulizer", "dplyr", "tidyr", "stringr",
+#                   "janitor", "purrr", "rlang", "Matrix", "doParallel"))
 
 # package management ------------------------------------------------------
 
