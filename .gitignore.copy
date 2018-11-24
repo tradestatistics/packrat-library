@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-*.tar.gz
 packrat/lib*/
+*.tar.gz

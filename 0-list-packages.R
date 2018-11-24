@@ -20,6 +20,7 @@ library(pacman)
 
 library(data.table)
 library(jsonlite)
+library(readr)
 library(readxl)
 
 # read/write DB -----------------------------------------------------------
@@ -39,3 +40,9 @@ library(janitor)
 library(purrr)
 library(rlang)
 library(Matrix)
+
+# parallelization (Unix only) ---------------------------------------------
+
+if (operating_system != "Windows") {
+  library(doParallel)
+}

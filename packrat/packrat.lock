@@ -62,6 +62,11 @@ Version: 1.0.1
 Hash: a742a3229dbf7085c3a737af10e5065b
 Requires: assertthat, crayon
 
+Package: clipr
+Source: CRAN
+Version: 0.4.1
+Hash: caf20ae357bfa2ed50e0e7db267f69ce
+
 Package: crayon
 Source: CRAN
 Version: 1.3.4
@@ -71,6 +76,12 @@ Package: data.table
 Source: CRAN
 Version: 1.11.8
 Hash: 67c877937c790a0cadb71284febb6b34
+
+Package: doParallel
+Source: CRAN
+Version: 1.0.14
+Hash: 7e564b9d723d8648b18457baba2a1383
+Requires: foreach, iterators
 
 Package: dplyr
 Source: CRAN
@@ -84,10 +95,27 @@ Source: CRAN
 Version: 0.4.0
 Hash: f147621f72b561485bfffcae78c4f5d5
 
+Package: foreach
+Source: CRAN
+Version: 1.4.4
+Hash: 4df5ab2c8c35382dacab75d414da6748
+Requires: iterators
+
 Package: glue
 Source: CRAN
 Version: 1.3.0
 Hash: 1fbde6dec830370be696eee8ef31c9e4
+
+Package: hms
+Source: CRAN
+Version: 0.4.2
+Hash: b4096a4f6a6736138e9a825c2baaacf0
+Requires: pkgconfig, rlang
+
+Package: iterators
+Source: CRAN
+Version: 1.0.10
+Hash: 9f8af91e4a3487a282d7dea67513e519
 
 Package: janitor
 Source: CRAN
@@ -147,6 +175,12 @@ Package: rJava
 Source: CRAN
 Version: 0.9-10
 Hash: ced564fa0273ec2be836ee586570d436
+
+Package: readr
+Source: CRAN
+Version: 1.2.1
+Hash: 89243d49f82826986927086db3f6f315
+Requires: BH, R6, Rcpp, clipr, hms, tibble
 
 Package: readxl
 Source: CRAN
