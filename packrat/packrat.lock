@@ -34,6 +34,12 @@ Source: CRAN
 Version: 1.0.0
 Hash: c7273c0f0bc9f5e41f4c52a8cf571f0f
 
+Package: RcppArmadillo
+Source: CRAN
+Version: 0.9.200.4.0
+Hash: b5430eebe0222be6236abcace4628723
+Requires: Rcpp
+
 Package: assertthat
 Source: CRAN
 Version: 0.2.0
