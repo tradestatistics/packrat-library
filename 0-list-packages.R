@@ -1,4 +1,4 @@
-# Open ts-packrat-library.Rproj before running this function
+# Open ts-packrat-library.Rproj before running this script
 
 # Copyright (c) 2018, Mauricio \"Pacha\" Vargas
 # This file is part of Open Trade Statistics project
