@@ -73,6 +73,11 @@ Source: CRAN
 Version: 0.4.1
 Hash: caf20ae357bfa2ed50e0e7db267f69ce
 
+Package: countrycode
+Source: CRAN
+Version: 1.1.0
+Hash: 9437e75137e685cf4f88130f7efaba59
+
 Package: crayon
 Source: CRAN
 Version: 1.3.4
