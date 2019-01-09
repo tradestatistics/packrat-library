@@ -10,7 +10,7 @@
 
 #install.packages(c("packrat, "pacman", "data.table", "jsonlite", "readxl", "RPostgreSQL", 
 #                   "tabulizer", "dplyr", "tidyr", "stringr", "janitor", "purrr", 
-#                   "rlang", "Matrix", "doParallel"))
+#                   "rlang", "Matrix", "doParallel", "glue", "plumber"))
 
 # package management ------------------------------------------------------
 
@@ -40,6 +40,11 @@ library(janitor)
 library(purrr)
 library(rlang)
 library(Matrix)
+
+# API ---------------------------------------------------------------------
+
+library(plumber)
+library(glue)
 
 # parallelization (Unix only) ---------------------------------------------
 
