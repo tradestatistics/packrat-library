@@ -46,8 +46,12 @@ library(Matrix)
 library(plumber)
 library(glue)
 
+# Plots -------------------------------------------------------------------
+
+library(ggplot2)
+
 # parallelization (Unix only) ---------------------------------------------
 
-if (operating_system != "Windows") {
+if (Sys.info()["sysname"] != "Windows") {
   library(doParallel)
 }
