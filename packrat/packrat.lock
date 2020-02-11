@@ -100,6 +100,12 @@ Hash: d6e576944199cba782a471015a822848
 Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
     pkgconfig, plogr, rlang, tibble, tidyselect
 
+Package: economiccomplexity
+Source: CRAN
+Version: 0.1.0
+Hash: dd510eac0f094ce19b164aefa909cc17
+Requires: dplyr, igraph, magrittr, rlang, tibble, tidyr
+
 Package: fansi
 Source: CRAN
 Version: 0.4.0
@@ -139,6 +145,12 @@ Source: CRAN
 Version: 1.4.5.1
 Hash: b754445499d0b3c8c237e1a5e30b568b
 Requires: BH, Rcpp, later, promises
+
+Package: igraph
+Source: CRAN
+Version: 1.2.4.1
+Hash: 0d76047f1a1aa89e989018646a78d462
+Requires: magrittr, pkgconfig
 
 Package: iterators
 Source: CRAN
